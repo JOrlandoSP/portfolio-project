@@ -5,9 +5,19 @@
   box-sizing: border-box
   font-family: variables.$font-stack
 
+html
+  scroll-snap-type: y mandatory
+  scroll-padding-top: 30px
+
+section
+  scroll-snap-align: start
+  height: 100vh
 
 body
   background: variables.$body-bg-color
+
+a, svg
+  transition: .4s
 
 h2
   color: variables.$text-color
