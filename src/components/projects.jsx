@@ -1,7 +1,7 @@
 export default function Projects() {
     return(
         <>
-        <section className='page2'>
+        <section id="projects" className='page2'>
             <h1>Projects</h1>
             <h2>Some of my recent projects</h2>
             <p>
