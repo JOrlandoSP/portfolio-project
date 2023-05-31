@@ -1,3 +1,5 @@
+import "../styles/components/home.sass"
+import picture from "../img/profile.jpg"
 export default function Home() {
     return(
         <>
@@ -6,6 +8,7 @@ export default function Home() {
             <p>
              Full time tech passionated! 
             </p>
+            <img id="profile-picture" src={picture} alt="Orlando picture"/>
         </section>
         </>
     )
