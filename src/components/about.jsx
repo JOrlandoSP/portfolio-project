@@ -1,7 +1,7 @@
 export default function About() {
     return(
-        <>
-        <section id="about" className='page4'>
+        <section id="about" className='page4 secondary-background'>
+            <article id="about--article">
             <h1>About</h1>
             <h2>Who am I?</h2>
             <p>
@@ -15,7 +15,7 @@ export default function About() {
             recently with desktop publishing software like Aldus PageMaker including 
             versions of Lorem Ipsum.
             </p>
+            </article>
         </section>
-        </>
     )
 }

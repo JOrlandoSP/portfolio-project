@@ -4,8 +4,8 @@ import '../styles/components/navbar.sass'
 
 export default function Nav() {
     return(
-        <div id="navbar">
-            <h1 id="navbar--logo">@JOrlandoSP</h1>
+        <nav id="navbar">
+            <a id="navbar--logo" href="https://medium.com/@JOrlandoSP" target="_blank">aJOrlandoSP </a>
             <div className="navbar--links">
                 <a href="#home">Home</a>
                 <a href="#projects">Projects</a>
@@ -13,6 +13,6 @@ export default function Nav() {
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
             </div>
-        </div>
+        </nav>
     );
 }

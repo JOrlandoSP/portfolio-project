@@ -1,4 +1,4 @@
-import Nav from './components/nav'
+import Navbar from './components/navbar'
 import Home from './components/home'
 import Projects from './components/projects'
 import Skills from './components/skills'
@@ -11,7 +11,7 @@ export default function App() {
 
   return (
     <div id='portfolio'>
-      <Nav />
+      <Navbar />
       <Home />
       <Projects />
       <Skills />
