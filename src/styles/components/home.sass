@@ -1,5 +1,29 @@
-img
-  max-width: 100%
-  height: auto
-  display: block
-  border-radius: 50%
+
+
+#home--article
+  display: flex
+  align-items: center
+  margin-top: 30vh
+  border: 1px solid red
+  h1
+    line-height: 75px
+  h3, p
+    color: #FFFFFF
+    font-weight: 700
+  img
+    max-width: 100%
+    height: auto
+    display: block
+    border-radius: 50%
+
+
+@media(max-width: 900px)
+
+  #home--article
+    flex-wrap: wrap
+    justify-content: center
+    margin: auto
+    h3, p
+      padding-left: 9px
+    img
+      margin-bottom: 50px
